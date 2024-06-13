@@ -1,17 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T05:33:37.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ZT-XxWezLTBz--wcxLTj" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T06:01:18.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="YUO77evlgyKRee9_il1K" version="24.5.4" type="github">
   <diagram name="Page-1" id="J5NP7OulbT8cKNfdq44i">
     <mxGraphModel dx="954" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5g2R2C2Vs8Jvehk5_mqn-1" value="Frontend (React)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="130" height="20" as="geometry" />
+          <mxGeometry x="40" y="30" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="5g2R2C2Vs8Jvehk5_mqn-2" value="Backend (Express.js)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="30" width="150" height="20" as="geometry" />
+          <mxGeometry x="360" y="30" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="5g2R2C2Vs8Jvehk5_mqn-3" value="Database (MongoDB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="30" width="150" height="20" as="geometry" />
+          <mxGeometry x="650" y="30" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5g2R2C2Vs8Jvehk5_mqn-5" value="User Interface Components" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5g2R2C2Vs8Jvehk5_mqn-6" value="State Management (Redux)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5g2R2C2Vs8Jvehk5_mqn-7" value="REST API Endpoints" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5g2R2C2Vs8Jvehk5_mqn-8" value="Middleware (JWT for Authentication)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5g2R2C2Vs8Jvehk5_mqn-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5g2R2C2Vs8Jvehk5_mqn-1" target="5g2R2C2Vs8Jvehk5_mqn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5g2R2C2Vs8Jvehk5_mqn-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5g2R2C2Vs8Jvehk5_mqn-2" target="5g2R2C2Vs8Jvehk5_mqn-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="120" as="sourcePoint" />
+            <mxPoint x="610" y="70" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
